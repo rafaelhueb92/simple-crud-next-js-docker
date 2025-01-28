@@ -1,0 +1,13 @@
+# Exclude the local prisma folder
+prisma/
+
+# Node.js artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment and sensitive files
+.env
+.env.*
+
+docker-init.sh
